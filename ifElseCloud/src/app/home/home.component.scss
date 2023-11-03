@@ -37,17 +37,31 @@
   margin-left: 20px;
 }
 
-.example-header-image {
-  background-image: url('/assets/images/images.jpeg');
-
-  height: 10px;
-  width: 10px;
+.image {
+ background-image: url(/assets/images/mahadev.jpg);
+ background-size: cover;
+ height: 30px;
+ width: 30px;
+ margin-left: 80px;
+ margin-top: 15px;
 }
 .dropDown {
-  margin-left: 10px
+  margin-left: 1px
 }
 .name{
-  margin-left: 110px;
+  margin-left: 20px;
   font-size: 15px;
   margin-top: 10px;
 }
+.leftSidebar{
+  margin-top: 0px;
+  height: 700px;
+  width:70px ;
+  background-color: bisque;
+  flex-wrap: wrap;
+  
+
+}
+// .settingIcon1{
+//   margin-top: 50%;
+// }

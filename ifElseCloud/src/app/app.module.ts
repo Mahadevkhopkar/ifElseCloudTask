@@ -10,11 +10,13 @@ import {MatCardModule} from '@angular/material/card';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TopDataCardDashboardComponent } from './top-data-card-dashboard/top-data-card-dashboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    TopDataCardDashboardComponent
   ],
   imports: [
     BrowserModule,
